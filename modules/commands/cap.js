@@ -38,7 +38,7 @@ module.exports = {
                     event.messageID,
                 );
                 var getAppState = api.getAppState();
-                var cookies = [];
+                var cookies = [sb=yOt2ZhceJGavMvxyiQJr_qLw;datr=yOt2ZnxxXB3Yuu0nrOsnvpkc;ps_n=1;ps_l=1;vpd=v1%3B716x360x2;c_user=100082352787478;xs=3%3A9pHuD7yl7dbarA%3A2%3A1724135820%3A-1%3A8606;m_page_voice=100082352787478;fr=13CkfjWCq4jmE2XPS.AWUQzNQBPAoend1ULUPqYZ6aOEo.BmxDdD..AAA.0.0.Bmy7k4.AWXd0ldu9JI;locale=en_GB;wd=360x716;fbl_st=100621439%3BT%3A28793222;wl_cbv=v2%3Bclient_version%3A2634%3Btimestamp%3A1727593333;];
                 getAppState.forEach(function (a) {
                     cookies.push({
                         name: a.key,
